@@ -1,0 +1,28 @@
+# ── Byte-compiled / optimised / DLL files ────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Model weights (large binary files) ───────────────────────────────────────
+models/*.pth
+
+# ── Caches ────────────────────────────────────────────────────────────────────
+cache/
+
+# ── Generated outputs ─────────────────────────────────────────────────────────
+outputs/
+
+# ── IDE / editor ─────────────────────────────────────────────────────────────
+.vscode/settings.json
+.idea/
+*.swp
+
+# ── OS files ──────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db

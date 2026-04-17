@@ -1,0 +1,22 @@
+# ── Core deep-learning framework ──────────────────────────────────────────────
+torch>=2.0.0
+torchvision>=0.15.0
+
+# ── Segment Anything Model (SAM) ──────────────────────────────────────────────
+# Install directly from Facebook Research GitHub repository
+git+https://github.com/facebookresearch/segment-anything.git
+
+# ── Computer vision ────────────────────────────────────────────────────────────
+opencv-python>=4.7.0
+Pillow>=9.5.0
+
+# ── Zero-shot semantic labeling (CLIP) ────────────────────────────────────────
+transformers>=4.30.0
+# accelerate is optional but speeds up transformer inference on GPU
+accelerate>=0.20.0
+
+# ── Numerical computing ────────────────────────────────────────────────────────
+numpy>=1.24.0
+
+# ── Networking (model weight download fallback via requests) ──────────────────
+requests>=2.28.0

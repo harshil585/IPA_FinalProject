@@ -1,0 +1,3 @@
+# Place your input images here (JPG, JPEG, PNG, BMP, WEBP supported).
+# If no --input argument is given to main.py, the first image found in
+# this folder will be used automatically.
