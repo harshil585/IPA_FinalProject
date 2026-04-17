@@ -1,6 +1,6 @@
 # SAM-CLIP Image Segmentation Pipeline
 
-> Zero-shot semantic image segmentation powered by Facebook's **Segment Anything Model (SAM)** and OpenAI's **CLIP** — running entirely locally in VS Code, no Colab required.
+> Zero-shot semantic image segmentation  by  **Segment Anything Model (SAM)** and  **CLIP** 
 
 ---
 
@@ -23,7 +23,7 @@ This pipeline takes any input image and performs:
 | Step | Description |
 |------|-------------|
 | **Preprocessing** | Grayscale conversion → contrast normalisation → Gaussian blur |
-| **SAM mask generation** | Automatic mask generation using SAM (ViT-H, ViT-L, or ViT-B) |
+| **SAM mask generation** | mask generation using SAM (ViT-H, ViT-L, or ViT-B) |
 | **Mask filtering** | Dynamic IoU threshold + area-size filter |
 | **Morphological refinement** | Morphological closing to smooth mask boundaries |
 | **Mask merging** | Overlapping masks are combined to reduce fragmentation |
