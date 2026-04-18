@@ -1,3 +1,10 @@
+Phase-1 VideoLink:
+https://drive.google.com/file/d/1Jb_sZmH3n72DkJT81y3XVBzutlsLPSZY/view
+
+Phase-2 VideoLink:
+https://drive.google.com/file/d/1uzf0Yv21NdB1KuI3y8OIlEeEhuxhorsE/view
+
+
 # SAM-CLIP Image Segmentation Pipeline
 
 > Zero-shot semantic image segmentation  by  **Segment Anything Model (SAM)** and  **CLIP** 
